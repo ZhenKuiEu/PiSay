@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004C8AAA5143637A4360B55CAD850E4F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD94FDA7CA461F01F47B81AFC4D11AE2 /* Operators.swift */; };
+		03E9D0588F2E25FD01F156AA21BFF87C /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C022C737E5674666C5FBC1BFA45CAA1 /* Pagable.swift */; };
+		05E44C82FAED17D346EE349295CF4603 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE31C5652855104BB5DEE6C710FCDE /* SelectableSection.swift */; };
+		072CA9CCA2B930B776F567EAC7BC1666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		0E7232F55A0147C548BF0C1D91AD29DC /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F3DC149C97AF3F07AD131C8EE207E8 /* RowType.swift */; };
+		1039256A7B0AFBEB51D1BCD1DE192C30 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120605F3A3F13E8FFE22D20C3DE1538E /* ActionSheetRow.swift */; };
+		10C17415FAEB6C009F1D04DB24E6C6EE /* LabelSizeCalculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E05AFC59C8B2FCC6324DCD0845E1932 /* LabelSizeCalculatable.swift */; };
+		114B8967240AF21C565B7645215F8F44 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1761CC67138A3D90C6CE16F759E76EB /* InlineRowType.swift */; };
+		130795E873137DA419183E8BBC2D2F9B /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E74A3D581AEF4573C34F4A8F1D504D /* PickerInlineRow.swift */; };
+		132CF9E88E65B19D11C52653D19B0012 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD42777BE75B7CF48507A75E77996D8 /* RAMAnimatedTabBarController.swift */; };
+		14085738C1B57648ADD19DDB9E7AA93F /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E3FC48A36C4641291BCE1EB6E158E /* SegmentedRow.swift */; };
+		1BC0CD86F887B891CD7F2568BC2E0D58 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FAC4828A51E68B3E7E22B3A2B77FC /* MenuItemViewCustomizable.swift */; };
+		1C25B432029B05B5E2CA17ED915035AE /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E42A50F43F75EDA0BC1A973BD620 /* MenuItemView.swift */; };
+		1D2C3F458A7EC5E133380C552CF8DA90 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A9FB8BE2158B494A0E5DD3EB47A23 /* PushRow.swift */; };
+		2395F5D2B2E9E8CDCC9B2C03F31A59B6 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B004BBAB71C970ED725A5136F649373 /* SelectableRowType.swift */; };
+		24B52E4528FE1CA5BBB438CF11441FA5 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1813B666D59DD9850A07EFE63B094A5 /* MultipleSelectorRow.swift */; };
+		278DA7CAFEDFF0B3E479BF7310999C84 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DEA6EB1E4B54399F6342A42DA78C2E /* AlertRow.swift */; };
+		2911B011E644839D11A4A73070311B66 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BAA1FCAD28601FB41FD0BF56512E8E /* RAMAnimatedTabBarController-dummy.m */; };
+		2A84006D7A3BDF4D776324C3AD9D9F2F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAA9AC39BB3F0FC9B0E88F0190C122 /* Cell.swift */; };
+		2AC217E55DBAE620E9B1F36F371DE4BF /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7429E0E36464EAFDFFFBFB4287CC29A /* ButtonRow.swift */; };
+		2ACBF08CF311E49CB4BA1F75D7F7209C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97458F88FA61CDE35FACDECF6A79038 /* Section.swift */; };
+		2AFAE16062416674764562F22E85FB88 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953B42A5F3DB03BA02700DC2E60DF78 /* DateRow.swift */; };
+		2C5B95B3105F48DCBD0DF12B4EB099D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		2E0DE3608984BFA292078CDAC8DAC92D /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D258B94FDE26A18E7C734ADF240915 /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F005065D096AE7E2DCEE8C7FAB91A2E /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0E55D27F9719970B569DD59CF8023 /* FieldsRow.swift */; };
+		30AAD30F48EB6531526A83E529E716BA /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C79E254AAE3FF7D916B3688D278F5C /* Protocols.swift */; };
+		311CF93EE9E301E3FAFD46BA0A62E3B8 /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EB5869C93AB2FCF9CD828388AB473C /* RuleEmail.swift */; };
+		37E2FFC149E2115469E943E6953CDE15 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C40D824B4B2E037F7C197833FF0625 /* TextAreaRow.swift */; };
+		3991DF903EE4C5D986052514554B67F6 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D1B21DDC5FA7A34C334449AA34AFDC /* PresenterRowType.swift */; };
+		3B20BF48D2238F62DC17EE013B65B619 /* GestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891B7A33E1AFDE6BAA3F970FE1F585D /* GestureHandler.swift */; };
+		3C15E44B6003282E5BE62A3D32D85A2A /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D595BC01A94AB968F364DF423D2BA40 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402EA4A022E376724E25504C36C522CD /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7FFD8430C692DB692F197FFE147D3 /* SelectorRow.swift */; };
+		4325E0AC8D1557CE015B4F35423277DA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601047F421742E59F182D6B7ADA66A5 /* Validation.swift */; };
+		43B9A00DB9436E7BD6D705E2872E26E8 /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64A1D058D80B66F71B7FD74118CCE3F /* BaseRow.swift */; };
+		498223C7F76DB7D28AE38C4B78829F9A /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E93F4703FFFA599B36E4D5F85AC24 /* FieldRow.swift */; };
+		4D944302A8632B3B0DB27B17AF7F186F /* ViewCleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C429197AC380F1132A889040AD50C80 /* ViewCleanable.swift */; };
+		4DF81955654DBE4E02E806802D1D49B0 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507AF473BDEDE3477832916305A58ABF /* Row.swift */; };
+		4EE521ADDD025747F450378FDDE95372 /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AFFFCFA258C609C1862F17FEA9235E /* RuleURL.swift */; };
+		50D312C2DB21BA080671C0AB5241DBBF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3159C0A4F36E5A453916692E78BB947 /* MenuView.swift */; };
+		520E9F67AFBBC78EBE66297B8D52C6D2 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B7E9E3F0EDA1D746B1BF87B53333B /* LabelRow.swift */; };
+		549A01629691F7DB092B3F8176AECD68 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D87AA6A171564C8A71BCBC190209D /* CheckRow.swift */; };
+		55582C1B0D02D5A84F1FBB731CDE35D9 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABB7E7FC4B830DA9812FEFB59E161F /* Core.swift */; };
+		573393FECA8BD3A7E4116C35088A17F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		598FA42A947DB0A73BF837326DFDB13C /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA2A6AB92BC159B5DD7C915E117F04 /* SelectorAlertController.swift */; };
+		5CB85FC0E9168E9EC0CCD33A63FCBC1A /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A73C540395F968736C6762A5D6941CA /* NavigationAccessoryView.swift */; };
+		5D49089662AC20A1CB3F05D33635229D /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A494A65B615B031CA73FB515BA1D032 /* RuleClosure.swift */; };
+		60665927ACB0699923D4A274EAEB766E /* PagingValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410A9E0B225765745DB4BC51B88480C /* PagingValidator.swift */; };
+		64EBE40F35C147E3B99E5AACA1D79565 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B14B10381A27D2E59F596691231C7 /* PagingMenuController.swift */; };
+		653F5F8E52EED5D8B9CF3FBDB0712CDD /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B382CE9E21F18F994122BECF396CB3B /* RuleRequired.swift */; };
+		68DFF9A114D3807FABAAC3CF260F21BE /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD10175359676BC67EF90C6AE3766BE /* DatePickerRow.swift */; };
+		6EA26283A0E32D5594BDA55FF3F704A0 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58023DDC4F7FA13198B40FEC5CC114E5 /* DateInlineRow.swift */; };
+		6FBB071D9E7FE75CB93CD0F7A12CB69D /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13074E5E7D2043550D0E66D1C07BAC87 /* PickerRow.swift */; };
+		73932E225CCA35F0C1A7622CC7601B98 /* PageDetectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0DFE8F90801E76F7F84634DDAFC7D /* PageDetectable.swift */; };
+		7614C1B751242708E332B18FF2684B19 /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA16A446181313DA81E4D4B0F04E18 /* DateInlineFieldRow.swift */; };
+		76AC8B9AD68F185D2971A39F1C292169 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F215F5C2D2278D5648982B88A8E4144F /* RAMRotationAnimation.swift */; };
+		78808B8338BDEF0959D8B0F3DA3BA891 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5F2C3AE26B7EFB1BAA5FAE3D74851 /* CellType.swift */; };
+		796574EDB51DC818A31A46E825A8D0D2 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C3024EB7B770AA24731CEAB77A6D6 /* RAMBadge.swift */; };
+		79E5ACA311F3FD7FF5A52E73A822CE2D /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB501BB7BC2CC796D3E0ADFFD736C068 /* OptionsRow.swift */; };
+		7B9DC82FC3E433E06CC2FFBDDFE080B2 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F8A02D3C2EEC3A78D11EA591E6FCB /* HeaderFooterView.swift */; };
+		8036FBD9863FF1D763DD7A646B05CB5E /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC11928D91F533D782BEAF9FD91CF9F /* PopoverSelectorRow.swift */; };
+		837826827AD8FE362C804D44F10E4174 /* Pods-PiSay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6502AFB7F58EA205D6BB5A844410284C /* Pods-PiSay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86BE15782A6ADC114C013E87CB5AB933 /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C85C7922DB28ED0AB8B329EF3C424C8 /* PagingMenuController-dummy.m */; };
+		955767FFCFFB4572597E8B69E42C2A62 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A804889FDB97D922544E9B3B9ACD983 /* PagingMenuControllerCustomizable.swift */; };
+		98B82309DB2678065E73E3120988819A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2FAA70616EE49670F0B306C5BB6152 /* Form.swift */; };
+		99DA71358AF586C2CAA098B2B9217015 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4017F5E5647B1F34BFB477F0D6261340 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8E39CE8F27C09AFA1A0151156AAD37 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF0083A2473351419C00B959189978 /* RAMItemAnimationProtocol.swift */; };
+		A997AEA41FC315AC873B1CCC6CCE4474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		AB3126F1CC735C7FD7D09DB7392FD4CA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0BF07D2DE7933BCF305BE6BA74845 /* Helpers.swift */; };
+		AEA1BD08FC0BF44288F2B7B87C020AB3 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ABB07E48783243BEA6A8368EEC29F6 /* DateFieldRow.swift */; };
+		B1A551C55FCF0AAB8BE1CBBD05B73BC4 /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0EBAC7A0D00F380AF092020BAD9E434 /* Eureka.bundle */; };
+		B32D89AABFBF621A75304EAE3334C5A2 /* MenuItemMultipliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10380F6AEEE2FDC82309D37061ABA94 /* MenuItemMultipliable.swift */; };
+		B3A9395676C4B2B980A29A839C70C113 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC831F92A3B09CFAA8DFCA3C58598BF9 /* RAMFrameItemAnimation.swift */; };
+		B5B70FE7A54DB108E39C418F70E3BC0B /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D080960AE76982C92B6C631915A80 /* PagingViewController.swift */; };
+		B5D1D75F4DFB50ECDBD359388B708E4A /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0958CEC9CCD78EC665DA7DAAE60F3D8B /* RowProtocols.swift */; };
+		B8E82D98499955A6B39BDBCB56E048D8 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B51E15EFCBF2CAB25080190DF4BDD9 /* SelectorViewController.swift */; };
+		B8F3F4AF773280864C25F953B5879425 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153047426D71FCE924E7E5542FC1B9D4 /* RAMBounceAnimation.swift */; };
+		BE3A10AAEDA8BC710096D8C2D4013A80 /* PageLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27530A7619F67C6568D9B10645C7D3E /* PageLoadable.swift */; };
+		BE3AFC46419AC438FE1D409B7B0BFED4 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D72D9915A32C5E00D2DA09C857132C2 /* RuleRange.swift */; };
+		C166116BB73CA63D53C6A610B7FFB32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		C3C0FF320CC9DE76423E6CDF1F8058EE /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BDB92065F23F172A2F77BA096E286 /* DecimalFormatter.swift */; };
+		C4E1ACB5AED0442E0212211FAFDA7975 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4766D240C76A5D2AD54DA4EC26DEB74 /* SliderRow.swift */; };
+		C60F11C7D5479F0153B43DC78B6DA97D /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C507D9EA818407408F93F60B6F76A /* MultipleSelectorViewController.swift */; };
+		C812952EC34CF6C37FA7B066870741B4 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F676793DD192A7071C72BEB0E6E5F /* RuleRegExp.swift */; };
+		CD59136C12F97B812062B4AA0862AEC0 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785A8331D4FA5D061E234E1CCDE261EE /* Eureka-dummy.m */; };
+		D042F97BD6E9018B1E6AF3B78695F2F6 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C435344BF1584C324B0073BDEB8678 /* RuleLength.swift */; };
+		D270DB3AFCE3B583AEB7B39A8817940B /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3180EFA1D78218AC1CFBA529908661B /* RAMTransitionItemAnimations.swift */; };
+		D38C4C82C4397D964431454DB9BA6B98 /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BDAF9344EB0FDB803C0F2D441EBE6D /* ListCheckRow.swift */; };
+		D4DEFA4E12377B3AB450C6262E7CFC00 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A007CE40122D1422A7BBBB8FC74B8 /* RAMFumeAnimation.swift */; };
+		DC59E613604D47744BB4D92C5265B0EF /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BDB2C583B4F4AF3D02740B87241493 /* ButtonRowWithPresent.swift */; };
+		DF79EA2BF345913A255799C01B438202 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145AF9BE08E00323AD9DDB4CC39E245 /* MenuViewCustomizable.swift */; };
+		E5784BC126CBF014FB01B00806581A57 /* Pods-PiSay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF64D2C680D9C5996DC6BA08AC4DF5 /* Pods-PiSay-dummy.m */; };
+		ED6498AD627581D3216938680A6D4614 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596C5BF01E6A4D97EEC261FF9D693DE3 /* RowControllerType.swift */; };
+		F3247CD95148E670D550CC747A769404 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F728891B875703E319DACC68A8EBD /* SwitchRow.swift */; };
+		F8E3F64EA6FEDF34A2D5F5DB83EF044E /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7724905BEC3415B6DD4DF0262B9B11 /* GenericMultipleSelectorRow.swift */; };
+		FF23400BEFE014C4818111FB1F2EB3EB /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EC1B6C5A580B01ECE982F38604783D /* StepperRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ED2834FC6CF63A2A32A981145EECA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A82921A1B97047AB8B8D3012D722A5;
+			remoteInfo = PagingMenuController;
+		};
+		87D4DF9E4E74C3DC165BAA97B91847ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873B1A0D84F1FF2C0ECD8A2440705B43;
+			remoteInfo = Eureka;
+		};
+		CD45A1F1827570587382BE653F131F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AD06F0631C5AEC26E3D63C72F88C41;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008A9FB8BE2158B494A0E5DD3EB47A23 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		0100FD507E26B7EAB0C228A745838AF7 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		02B7FFD8430C692DB692F197FFE147D3 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		088F8A02D3C2EEC3A78D11EA591E6FCB /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		0958CEC9CCD78EC665DA7DAAE60F3D8B /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		09C435344BF1584C324B0073BDEB8678 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		0B004BBAB71C970ED725A5136F649373 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		0C1BDB92065F23F172A2F77BA096E286 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		0E76926C381E550F8D6F2D6F72B6B7A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF0DFE8F90801E76F7F84634DDAFC7D /* PageDetectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageDetectable.swift; path = Pod/Classes/Protocols/PageDetectable.swift; sourceTree = "<group>"; };
+		120605F3A3F13E8FFE22D20C3DE1538E /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		121D4136BEB44626200CB0BC539822AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13074E5E7D2043550D0E66D1C07BAC87 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		153047426D71FCE924E7E5542FC1B9D4 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		15FF0083A2473351419C00B959189978 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		1C022C737E5674666C5FBC1BFA45CAA1 /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
+		1D72D9915A32C5E00D2DA09C857132C2 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		1EF33FF27ACC8DB92E54BCA4A8ADD353 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F0BF07D2DE7933BCF305BE6BA74845 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		2953B42A5F3DB03BA02700DC2E60DF78 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		2A73C540395F968736C6762A5D6941CA /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		2B20BB0A6BD394B8F6742063C72F8DAF /* Pods_PiSay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiSay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0D74CC5D5C7AD0236F92758CE09938 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318A007CE40122D1422A7BBBB8FC74B8 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		34F3DC149C97AF3F07AD131C8EE207E8 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		356D080960AE76982C92B6C631915A80 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		3E05AFC59C8B2FCC6324DCD0845E1932 /* LabelSizeCalculatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelSizeCalculatable.swift; path = Pod/Classes/Protocols/LabelSizeCalculatable.swift; sourceTree = "<group>"; };
+		4017F5E5647B1F34BFB477F0D6261340 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		4410A9E0B225765745DB4BC51B88480C /* PagingValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingValidator.swift; path = Pod/Classes/Protocols/PagingValidator.swift; sourceTree = "<group>"; };
+		4533B77DFC8809A40E0D52ECD4D4B673 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		4874F4AEC45F9A068AA5AB3A40C995C8 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
+		4A2E93F4703FFFA599B36E4D5F85AC24 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		4EFA16A446181313DA81E4D4B0F04E18 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		4FC11928D91F533D782BEAF9FD91CF9F /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		507AF473BDEDE3477832916305A58ABF /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		58023DDC4F7FA13198B40FEC5CC114E5 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		58696A6D8D9FBAB27FB2750FCF650E38 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
+		596C5BF01E6A4D97EEC261FF9D693DE3 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		5A494A65B615B031CA73FB515BA1D032 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		5D595BC01A94AB968F364DF423D2BA40 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		603DD7B3A54605FC2B5433A7B6B212BD /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		635D87AA6A171564C8A71BCBC190209D /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		63ABB7E7FC4B830DA9812FEFB59E161F /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		647F728891B875703E319DACC68A8EBD /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		6502AFB7F58EA205D6BB5A844410284C /* Pods-PiSay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PiSay-umbrella.h"; sourceTree = "<group>"; };
+		65BAA1FCAD28601FB41FD0BF56512E8E /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		67E74A3D581AEF4573C34F4A8F1D504D /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		67EB5869C93AB2FCF9CD828388AB473C /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		6891B7A33E1AFDE6BAA3F970FE1F585D /* GestureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureHandler.swift; path = Pod/Classes/Protocols/GestureHandler.swift; sourceTree = "<group>"; };
+		699FAC4828A51E68B3E7E22B3A2B77FC /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		69BDAF9344EB0FDB803C0F2D441EBE6D /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		6C429197AC380F1132A889040AD50C80 /* ViewCleanable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCleanable.swift; path = Pod/Classes/Protocols/ViewCleanable.swift; sourceTree = "<group>"; };
+		6CBAE566CF93D37137C0CC9302DBF8F5 /* Pods-PiSay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PiSay-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CD42777BE75B7CF48507A75E77996D8 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		6D37B520004A75E426A50174F8C14977 /* Pods-PiSay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PiSay.modulemap"; sourceTree = "<group>"; };
+		71AE31C5652855104BB5DEE6C710FCDE /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		73BF64D2C680D9C5996DC6BA08AC4DF5 /* Pods-PiSay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PiSay-dummy.m"; sourceTree = "<group>"; };
+		7601047F421742E59F182D6B7ADA66A5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		77CAA9AC39BB3F0FC9B0E88F0190C122 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		77EC1B6C5A580B01ECE982F38604783D /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		785A8331D4FA5D061E234E1CCDE261EE /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		786E11D1AE7A39C7DA3D647AA0C068A8 /* Pods-PiSay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiSay-frameworks.sh"; sourceTree = "<group>"; };
+		78BDB2C583B4F4AF3D02740B87241493 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		7AD10175359676BC67EF90C6AE3766BE /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		7FA5F2C3AE26B7EFB1BAA5FAE3D74851 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		8145AF9BE08E00323AD9DDB4CC39E245 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		85D1B21DDC5FA7A34C334449AA34AFDC /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		8A804889FDB97D922544E9B3B9ACD983 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		8A9E3FC48A36C4641291BCE1EB6E158E /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		8C73EBBC3E0246D23C993E4F8B42C207 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		900F555AF55235BEAA7D57F44FB8E782 /* Pods-PiSay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiSay.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996B7E9E3F0EDA1D746B1BF87B53333B /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		9B382CE9E21F18F994122BECF396CB3B /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		9C85C7922DB28ED0AB8B329EF3C424C8 /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
+		9F3FF876DEB9651CBF4D90EDA9C55ACA /* Pods-PiSay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PiSay-resources.sh"; sourceTree = "<group>"; };
+		A0EBAC7A0D00F380AF092020BAD9E434 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		A10380F6AEEE2FDC82309D37061ABA94 /* MenuItemMultipliable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemMultipliable.swift; path = Pod/Classes/Protocols/MenuItemMultipliable.swift; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3ABB07E48783243BEA6A8368EEC29F6 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		A4B51E15EFCBF2CAB25080190DF4BDD9 /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		A8DEA6EB1E4B54399F6342A42DA78C2E /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		AAD8E42A50F43F75EDA0BC1A973BD620 /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		AC2FAA70616EE49670F0B306C5BB6152 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		AC7CD2B598E580D710DD67E2E6787135 /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5C3024EB7B770AA24731CEAB77A6D6 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		B1C40D824B4B2E037F7C197833FF0625 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		B27530A7619F67C6568D9B10645C7D3E /* PageLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageLoadable.swift; path = Pod/Classes/Protocols/PageLoadable.swift; sourceTree = "<group>"; };
+		B59B14B10381A27D2E59F596691231C7 /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
+		B71C507D9EA818407408F93F60B6F76A /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		BE41FFD54534965EF807E5363355F8C5 /* Pods-PiSay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PiSay.release.xcconfig"; sourceTree = "<group>"; };
+		BF6DBC941E5140004E3578BF9E02C43D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1813B666D59DD9850A07EFE63B094A5 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		C2646C53D9DC9D9ACDE212B3039FCF6F /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		C3159C0A4F36E5A453916692E78BB947 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		C3D258B94FDE26A18E7C734ADF240915 /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
+		C4766D240C76A5D2AD54DA4EC26DEB74 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		C7429E0E36464EAFDFFFBFB4287CC29A /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		C97458F88FA61CDE35FACDECF6A79038 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		CC152A10DC2713F65FB58D2D93487855 /* Pods-PiSay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PiSay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1761CC67138A3D90C6CE16F759E76EB /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		D4C79E254AAE3FF7D916B3688D278F5C /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		D8AFFFCFA258C609C1862F17FEA9235E /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		DCB0E55D27F9719970B569DD59CF8023 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		DD94FDA7CA461F01F47B81AFC4D11AE2 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		E3180EFA1D78218AC1CFBA529908661B /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		E64A1D058D80B66F71B7FD74118CCE3F /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC831F92A3B09CFAA8DFCA3C58598BF9 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		F01F676793DD192A7071C72BEB0E6E5F /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		F215F5C2D2278D5648982B88A8E4144F /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		F59DEE76DBB2DF0C76DCB35B85D50EFE /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
+		F7BD1F9418638FF8DC24835F69F94F65 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7724905BEC3415B6DD4DF0262B9B11 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		FB501BB7BC2CC796D3E0ADFFD736C068 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		FC04DDE2949054C5C9EEA1CB093D2C3C /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
+		FECA2A6AB92BC159B5DD7C915E117F04 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2293F1B39337610A9D796A3D95337FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C166116BB73CA63D53C6A610B7FFB32D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684D5689A507EAC3C4AC004F8CF1F043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573393FECA8BD3A7E4116C35088A17F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D6B3A0D07C60BD6FBDE916E3C71A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A997AEA41FC315AC873B1CCC6CCE4474 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B83EC0FCE8537BA433BCAA8B14FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072CA9CCA2B930B776F567EAC7BC1666 /* Foundation.framework in Frameworks */,
+				2C5B95B3105F48DCBD0DF12B4EB099D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111EB84772B2029926D361D72E6D42E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D74CC5D5C7AD0236F92758CE09938 /* Eureka.framework */,
+				AC7CD2B598E580D710DD67E2E6787135 /* PagingMenuController.framework */,
+				2B20BB0A6BD394B8F6742063C72F8DAF /* Pods_PiSay.framework */,
+				F7BD1F9418638FF8DC24835F69F94F65 /* RAMAnimatedTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FE3C252D5B4B3607C234C926EEC7AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1E0B506035E68493BD6352B874C3611 /* Eureka */,
+				51F01C1A34F7CA3FA5DE7543A12ACBCA /* PagingMenuController */,
+				56CE3B63AB9AA4360DBD86A7E59B9EC2 /* RAMAnimatedTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F01C1A34F7CA3FA5DE7543A12ACBCA /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				6891B7A33E1AFDE6BAA3F970FE1F585D /* GestureHandler.swift */,
+				3E05AFC59C8B2FCC6324DCD0845E1932 /* LabelSizeCalculatable.swift */,
+				A10380F6AEEE2FDC82309D37061ABA94 /* MenuItemMultipliable.swift */,
+				AAD8E42A50F43F75EDA0BC1A973BD620 /* MenuItemView.swift */,
+				699FAC4828A51E68B3E7E22B3A2B77FC /* MenuItemViewCustomizable.swift */,
+				C3159C0A4F36E5A453916692E78BB947 /* MenuView.swift */,
+				8145AF9BE08E00323AD9DDB4CC39E245 /* MenuViewCustomizable.swift */,
+				1C022C737E5674666C5FBC1BFA45CAA1 /* Pagable.swift */,
+				0EF0DFE8F90801E76F7F84634DDAFC7D /* PageDetectable.swift */,
+				B27530A7619F67C6568D9B10645C7D3E /* PageLoadable.swift */,
+				B59B14B10381A27D2E59F596691231C7 /* PagingMenuController.swift */,
+				8A804889FDB97D922544E9B3B9ACD983 /* PagingMenuControllerCustomizable.swift */,
+				4410A9E0B225765745DB4BC51B88480C /* PagingValidator.swift */,
+				356D080960AE76982C92B6C631915A80 /* PagingViewController.swift */,
+				6C429197AC380F1132A889040AD50C80 /* ViewCleanable.swift */,
+				B9669319A3CBFCF5B79FECEB04CB0A58 /* Support Files */,
+			);
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		56CE3B63AB9AA4360DBD86A7E59B9EC2 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6CD42777BE75B7CF48507A75E77996D8 /* RAMAnimatedTabBarController.swift */,
+				AE5C3024EB7B770AA24731CEAB77A6D6 /* RAMBadge.swift */,
+				153047426D71FCE924E7E5542FC1B9D4 /* RAMBounceAnimation.swift */,
+				EC831F92A3B09CFAA8DFCA3C58598BF9 /* RAMFrameItemAnimation.swift */,
+				318A007CE40122D1422A7BBBB8FC74B8 /* RAMFumeAnimation.swift */,
+				15FF0083A2473351419C00B959189978 /* RAMItemAnimationProtocol.swift */,
+				F215F5C2D2278D5648982B88A8E4144F /* RAMRotationAnimation.swift */,
+				E3180EFA1D78218AC1CFBA529908661B /* RAMTransitionItemAnimations.swift */,
+				D75805D7ED77561D2259CD0EE5B02B5C /* Support Files */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				25FE3C252D5B4B3607C234C926EEC7AD /* Pods */,
+				111EB84772B2029926D361D72E6D42E4 /* Products */,
+				F8F985FD234F0A28AF242DDACC6C1DD8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B08CF5E83BBC95BDF5CFCACD7A519AD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0EBAC7A0D00F380AF092020BAD9E434 /* Eureka.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B9669319A3CBFCF5B79FECEB04CB0A58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				121D4136BEB44626200CB0BC539822AF /* Info.plist */,
+				58696A6D8D9FBAB27FB2750FCF650E38 /* PagingMenuController.modulemap */,
+				FC04DDE2949054C5C9EEA1CB093D2C3C /* PagingMenuController.xcconfig */,
+				9C85C7922DB28ED0AB8B329EF3C424C8 /* PagingMenuController-dummy.m */,
+				4874F4AEC45F9A068AA5AB3A40C995C8 /* PagingMenuController-prefix.pch */,
+				C3D258B94FDE26A18E7C734ADF240915 /* PagingMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingMenuController";
+			sourceTree = "<group>";
+		};
+		C97E94C754378D4820FF44982ABD37D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59DEE76DBB2DF0C76DCB35B85D50EFE /* Eureka.modulemap */,
+				C2646C53D9DC9D9ACDE212B3039FCF6F /* Eureka.xcconfig */,
+				785A8331D4FA5D061E234E1CCDE261EE /* Eureka-dummy.m */,
+				0100FD507E26B7EAB0C228A745838AF7 /* Eureka-prefix.pch */,
+				5D595BC01A94AB968F364DF423D2BA40 /* Eureka-umbrella.h */,
+				1EF33FF27ACC8DB92E54BCA4A8ADD353 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		D1E0B506035E68493BD6352B874C3611 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				120605F3A3F13E8FFE22D20C3DE1538E /* ActionSheetRow.swift */,
+				A8DEA6EB1E4B54399F6342A42DA78C2E /* AlertRow.swift */,
+				E64A1D058D80B66F71B7FD74118CCE3F /* BaseRow.swift */,
+				C7429E0E36464EAFDFFFBFB4287CC29A /* ButtonRow.swift */,
+				78BDB2C583B4F4AF3D02740B87241493 /* ButtonRowWithPresent.swift */,
+				77CAA9AC39BB3F0FC9B0E88F0190C122 /* Cell.swift */,
+				7FA5F2C3AE26B7EFB1BAA5FAE3D74851 /* CellType.swift */,
+				635D87AA6A171564C8A71BCBC190209D /* CheckRow.swift */,
+				63ABB7E7FC4B830DA9812FEFB59E161F /* Core.swift */,
+				A3ABB07E48783243BEA6A8368EEC29F6 /* DateFieldRow.swift */,
+				4EFA16A446181313DA81E4D4B0F04E18 /* DateInlineFieldRow.swift */,
+				58023DDC4F7FA13198B40FEC5CC114E5 /* DateInlineRow.swift */,
+				7AD10175359676BC67EF90C6AE3766BE /* DatePickerRow.swift */,
+				2953B42A5F3DB03BA02700DC2E60DF78 /* DateRow.swift */,
+				0C1BDB92065F23F172A2F77BA096E286 /* DecimalFormatter.swift */,
+				4A2E93F4703FFFA599B36E4D5F85AC24 /* FieldRow.swift */,
+				DCB0E55D27F9719970B569DD59CF8023 /* FieldsRow.swift */,
+				AC2FAA70616EE49670F0B306C5BB6152 /* Form.swift */,
+				FA7724905BEC3415B6DD4DF0262B9B11 /* GenericMultipleSelectorRow.swift */,
+				088F8A02D3C2EEC3A78D11EA591E6FCB /* HeaderFooterView.swift */,
+				23F0BF07D2DE7933BCF305BE6BA74845 /* Helpers.swift */,
+				D1761CC67138A3D90C6CE16F759E76EB /* InlineRowType.swift */,
+				996B7E9E3F0EDA1D746B1BF87B53333B /* LabelRow.swift */,
+				69BDAF9344EB0FDB803C0F2D441EBE6D /* ListCheckRow.swift */,
+				C1813B666D59DD9850A07EFE63B094A5 /* MultipleSelectorRow.swift */,
+				B71C507D9EA818407408F93F60B6F76A /* MultipleSelectorViewController.swift */,
+				2A73C540395F968736C6762A5D6941CA /* NavigationAccessoryView.swift */,
+				DD94FDA7CA461F01F47B81AFC4D11AE2 /* Operators.swift */,
+				FB501BB7BC2CC796D3E0ADFFD736C068 /* OptionsRow.swift */,
+				67E74A3D581AEF4573C34F4A8F1D504D /* PickerInlineRow.swift */,
+				13074E5E7D2043550D0E66D1C07BAC87 /* PickerRow.swift */,
+				4FC11928D91F533D782BEAF9FD91CF9F /* PopoverSelectorRow.swift */,
+				85D1B21DDC5FA7A34C334449AA34AFDC /* PresenterRowType.swift */,
+				D4C79E254AAE3FF7D916B3688D278F5C /* Protocols.swift */,
+				008A9FB8BE2158B494A0E5DD3EB47A23 /* PushRow.swift */,
+				507AF473BDEDE3477832916305A58ABF /* Row.swift */,
+				596C5BF01E6A4D97EEC261FF9D693DE3 /* RowControllerType.swift */,
+				0958CEC9CCD78EC665DA7DAAE60F3D8B /* RowProtocols.swift */,
+				34F3DC149C97AF3F07AD131C8EE207E8 /* RowType.swift */,
+				5A494A65B615B031CA73FB515BA1D032 /* RuleClosure.swift */,
+				67EB5869C93AB2FCF9CD828388AB473C /* RuleEmail.swift */,
+				09C435344BF1584C324B0073BDEB8678 /* RuleLength.swift */,
+				1D72D9915A32C5E00D2DA09C857132C2 /* RuleRange.swift */,
+				F01F676793DD192A7071C72BEB0E6E5F /* RuleRegExp.swift */,
+				9B382CE9E21F18F994122BECF396CB3B /* RuleRequired.swift */,
+				D8AFFFCFA258C609C1862F17FEA9235E /* RuleURL.swift */,
+				C97458F88FA61CDE35FACDECF6A79038 /* Section.swift */,
+				8A9E3FC48A36C4641291BCE1EB6E158E /* SegmentedRow.swift */,
+				0B004BBAB71C970ED725A5136F649373 /* SelectableRowType.swift */,
+				71AE31C5652855104BB5DEE6C710FCDE /* SelectableSection.swift */,
+				FECA2A6AB92BC159B5DD7C915E117F04 /* SelectorAlertController.swift */,
+				02B7FFD8430C692DB692F197FFE147D3 /* SelectorRow.swift */,
+				A4B51E15EFCBF2CAB25080190DF4BDD9 /* SelectorViewController.swift */,
+				C4766D240C76A5D2AD54DA4EC26DEB74 /* SliderRow.swift */,
+				77EC1B6C5A580B01ECE982F38604783D /* StepperRow.swift */,
+				647F728891B875703E319DACC68A8EBD /* SwitchRow.swift */,
+				B1C40D824B4B2E037F7C197833FF0625 /* TextAreaRow.swift */,
+				7601047F421742E59F182D6B7ADA66A5 /* Validation.swift */,
+				B08CF5E83BBC95BDF5CFCACD7A519AD4 /* Resources */,
+				C97E94C754378D4820FF44982ABD37D1 /* Support Files */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		D75805D7ED77561D2259CD0EE5B02B5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF6DBC941E5140004E3578BF9E02C43D /* Info.plist */,
+				603DD7B3A54605FC2B5433A7B6B212BD /* RAMAnimatedTabBarController.modulemap */,
+				8C73EBBC3E0246D23C993E4F8B42C207 /* RAMAnimatedTabBarController.xcconfig */,
+				65BAA1FCAD28601FB41FD0BF56512E8E /* RAMAnimatedTabBarController-dummy.m */,
+				4533B77DFC8809A40E0D52ECD4D4B673 /* RAMAnimatedTabBarController-prefix.pch */,
+				4017F5E5647B1F34BFB477F0D6261340 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		E66F75A9019A83DC30B382FD73D07528 /* Pods-PiSay */ = {
+			isa = PBXGroup;
+			children = (
+				0E76926C381E550F8D6F2D6F72B6B7A2 /* Info.plist */,
+				6D37B520004A75E426A50174F8C14977 /* Pods-PiSay.modulemap */,
+				CC152A10DC2713F65FB58D2D93487855 /* Pods-PiSay-acknowledgements.markdown */,
+				6CBAE566CF93D37137C0CC9302DBF8F5 /* Pods-PiSay-acknowledgements.plist */,
+				73BF64D2C680D9C5996DC6BA08AC4DF5 /* Pods-PiSay-dummy.m */,
+				786E11D1AE7A39C7DA3D647AA0C068A8 /* Pods-PiSay-frameworks.sh */,
+				9F3FF876DEB9651CBF4D90EDA9C55ACA /* Pods-PiSay-resources.sh */,
+				6502AFB7F58EA205D6BB5A844410284C /* Pods-PiSay-umbrella.h */,
+				900F555AF55235BEAA7D57F44FB8E782 /* Pods-PiSay.debug.xcconfig */,
+				BE41FFD54534965EF807E5363355F8C5 /* Pods-PiSay.release.xcconfig */,
+			);
+			name = "Pods-PiSay";
+			path = "Target Support Files/Pods-PiSay";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F8F985FD234F0A28AF242DDACC6C1DD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E66F75A9019A83DC30B382FD73D07528 /* Pods-PiSay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		124934408CE305C714D17A4C4607CC4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0DE3608984BFA292078CDAC8DAC92D /* PagingMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A8F015FF72B8873D7849C18F597FD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15E44B6003282E5BE62A3D32D85A2A /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB584AFE7C6D003A86EEF2DCF9EBD0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837826827AD8FE362C804D44F10E4174 /* Pods-PiSay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC03EF4E3148EBE83E7799D1EDE30D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA71358AF586C2CAA098B2B9217015 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05AD06F0631C5AEC26E3D63C72F88C41 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CAF9842FAFC5CCEFE9C4516FF82575 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				A1752D74AFF06B6AF8E1E8641A498E94 /* Sources */,
+				2293F1B39337610A9D796A3D95337FCA /* Frameworks */,
+				EEFC03EF4E3148EBE83E7799D1EDE30D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = F7BD1F9418638FF8DC24835F69F94F65 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C214C98B26F2C9E649027E8403BF6A5 /* Pods-PiSay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F29ECB29C5F5E0958554F72422EA95C /* Build configuration list for PBXNativeTarget "Pods-PiSay" */;
+			buildPhases = (
+				9BA68771E88DC8DEDF66696BFD366E12 /* Sources */,
+				80D6B3A0D07C60BD6FBDE916E3C71A27 /* Frameworks */,
+				9CB584AFE7C6D003A86EEF2DCF9EBD0E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E4D8393767144A632AD1EB03D5E3B0 /* PBXTargetDependency */,
+				1C0D8744CA121831A227DD6D140C923C /* PBXTargetDependency */,
+				5D35CB5188F1A948719695A4C40C6E6E /* PBXTargetDependency */,
+			);
+			name = "Pods-PiSay";
+			productName = "Pods-PiSay";
+			productReference = 2B20BB0A6BD394B8F6742063C72F8DAF /* Pods_PiSay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE17FD22F754341BD6DBF1E339AAF8A4 /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				C43AAC6F8D19904C0EB7666E96B8B1D6 /* Sources */,
+				CE2B83EC0FCE8537BA433BCAA8B14FF5 /* Frameworks */,
+				52DC994007D06EF6E18A6327FC53EFFE /* Resources */,
+				46A8F015FF72B8873D7849C18F597FD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 2D0D74CC5D5C7AD0236F92758CE09938 /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5A82921A1B97047AB8B8D3012D722A5 /* PagingMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689EDA487315035755E9A0A64F58843D /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
+			buildPhases = (
+				79ABB90DF228135229E103686AB9A2A1 /* Sources */,
+				684D5689A507EAC3C4AC004F8CF1F043 /* Frameworks */,
+				124934408CE305C714D17A4C4607CC4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingMenuController;
+			productName = PagingMenuController;
+			productReference = AC7CD2B598E580D710DD67E2E6787135 /* PagingMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 111EB84772B2029926D361D72E6D42E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */,
+				C5A82921A1B97047AB8B8D3012D722A5 /* PagingMenuController */,
+				3C214C98B26F2C9E649027E8403BF6A5 /* Pods-PiSay */,
+				05AD06F0631C5AEC26E3D63C72F88C41 /* RAMAnimatedTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DC994007D06EF6E18A6327FC53EFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A551C55FCF0AAB8BE1CBBD05B73BC4 /* Eureka.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79ABB90DF228135229E103686AB9A2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B20BF48D2238F62DC17EE013B65B619 /* GestureHandler.swift in Sources */,
+				10C17415FAEB6C009F1D04DB24E6C6EE /* LabelSizeCalculatable.swift in Sources */,
+				B32D89AABFBF621A75304EAE3334C5A2 /* MenuItemMultipliable.swift in Sources */,
+				1C25B432029B05B5E2CA17ED915035AE /* MenuItemView.swift in Sources */,
+				1BC0CD86F887B891CD7F2568BC2E0D58 /* MenuItemViewCustomizable.swift in Sources */,
+				50D312C2DB21BA080671C0AB5241DBBF /* MenuView.swift in Sources */,
+				DF79EA2BF345913A255799C01B438202 /* MenuViewCustomizable.swift in Sources */,
+				03E9D0588F2E25FD01F156AA21BFF87C /* Pagable.swift in Sources */,
+				73932E225CCA35F0C1A7622CC7601B98 /* PageDetectable.swift in Sources */,
+				BE3A10AAEDA8BC710096D8C2D4013A80 /* PageLoadable.swift in Sources */,
+				86BE15782A6ADC114C013E87CB5AB933 /* PagingMenuController-dummy.m in Sources */,
+				64EBE40F35C147E3B99E5AACA1D79565 /* PagingMenuController.swift in Sources */,
+				955767FFCFFB4572597E8B69E42C2A62 /* PagingMenuControllerCustomizable.swift in Sources */,
+				60665927ACB0699923D4A274EAEB766E /* PagingValidator.swift in Sources */,
+				B5B70FE7A54DB108E39C418F70E3BC0B /* PagingViewController.swift in Sources */,
+				4D944302A8632B3B0DB27B17AF7F186F /* ViewCleanable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA68771E88DC8DEDF66696BFD366E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5784BC126CBF014FB01B00806581A57 /* Pods-PiSay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1752D74AFF06B6AF8E1E8641A498E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2911B011E644839D11A4A73070311B66 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				132CF9E88E65B19D11C52653D19B0012 /* RAMAnimatedTabBarController.swift in Sources */,
+				796574EDB51DC818A31A46E825A8D0D2 /* RAMBadge.swift in Sources */,
+				B8F3F4AF773280864C25F953B5879425 /* RAMBounceAnimation.swift in Sources */,
+				B3A9395676C4B2B980A29A839C70C113 /* RAMFrameItemAnimation.swift in Sources */,
+				D4DEFA4E12377B3AB450C6262E7CFC00 /* RAMFumeAnimation.swift in Sources */,
+				9D8E39CE8F27C09AFA1A0151156AAD37 /* RAMItemAnimationProtocol.swift in Sources */,
+				76AC8B9AD68F185D2971A39F1C292169 /* RAMRotationAnimation.swift in Sources */,
+				D270DB3AFCE3B583AEB7B39A8817940B /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43AAC6F8D19904C0EB7666E96B8B1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039256A7B0AFBEB51D1BCD1DE192C30 /* ActionSheetRow.swift in Sources */,
+				278DA7CAFEDFF0B3E479BF7310999C84 /* AlertRow.swift in Sources */,
+				43B9A00DB9436E7BD6D705E2872E26E8 /* BaseRow.swift in Sources */,
+				2AC217E55DBAE620E9B1F36F371DE4BF /* ButtonRow.swift in Sources */,
+				DC59E613604D47744BB4D92C5265B0EF /* ButtonRowWithPresent.swift in Sources */,
+				2A84006D7A3BDF4D776324C3AD9D9F2F /* Cell.swift in Sources */,
+				78808B8338BDEF0959D8B0F3DA3BA891 /* CellType.swift in Sources */,
+				549A01629691F7DB092B3F8176AECD68 /* CheckRow.swift in Sources */,
+				55582C1B0D02D5A84F1FBB731CDE35D9 /* Core.swift in Sources */,
+				AEA1BD08FC0BF44288F2B7B87C020AB3 /* DateFieldRow.swift in Sources */,
+				7614C1B751242708E332B18FF2684B19 /* DateInlineFieldRow.swift in Sources */,
+				6EA26283A0E32D5594BDA55FF3F704A0 /* DateInlineRow.swift in Sources */,
+				68DFF9A114D3807FABAAC3CF260F21BE /* DatePickerRow.swift in Sources */,
+				2AFAE16062416674764562F22E85FB88 /* DateRow.swift in Sources */,
+				C3C0FF320CC9DE76423E6CDF1F8058EE /* DecimalFormatter.swift in Sources */,
+				CD59136C12F97B812062B4AA0862AEC0 /* Eureka-dummy.m in Sources */,
+				498223C7F76DB7D28AE38C4B78829F9A /* FieldRow.swift in Sources */,
+				2F005065D096AE7E2DCEE8C7FAB91A2E /* FieldsRow.swift in Sources */,
+				98B82309DB2678065E73E3120988819A /* Form.swift in Sources */,
+				F8E3F64EA6FEDF34A2D5F5DB83EF044E /* GenericMultipleSelectorRow.swift in Sources */,
+				7B9DC82FC3E433E06CC2FFBDDFE080B2 /* HeaderFooterView.swift in Sources */,
+				AB3126F1CC735C7FD7D09DB7392FD4CA /* Helpers.swift in Sources */,
+				114B8967240AF21C565B7645215F8F44 /* InlineRowType.swift in Sources */,
+				520E9F67AFBBC78EBE66297B8D52C6D2 /* LabelRow.swift in Sources */,
+				D38C4C82C4397D964431454DB9BA6B98 /* ListCheckRow.swift in Sources */,
+				24B52E4528FE1CA5BBB438CF11441FA5 /* MultipleSelectorRow.swift in Sources */,
+				C60F11C7D5479F0153B43DC78B6DA97D /* MultipleSelectorViewController.swift in Sources */,
+				5CB85FC0E9168E9EC0CCD33A63FCBC1A /* NavigationAccessoryView.swift in Sources */,
+				004C8AAA5143637A4360B55CAD850E4F /* Operators.swift in Sources */,
+				79E5ACA311F3FD7FF5A52E73A822CE2D /* OptionsRow.swift in Sources */,
+				130795E873137DA419183E8BBC2D2F9B /* PickerInlineRow.swift in Sources */,
+				6FBB071D9E7FE75CB93CD0F7A12CB69D /* PickerRow.swift in Sources */,
+				8036FBD9863FF1D763DD7A646B05CB5E /* PopoverSelectorRow.swift in Sources */,
+				3991DF903EE4C5D986052514554B67F6 /* PresenterRowType.swift in Sources */,
+				30AAD30F48EB6531526A83E529E716BA /* Protocols.swift in Sources */,
+				1D2C3F458A7EC5E133380C552CF8DA90 /* PushRow.swift in Sources */,
+				4DF81955654DBE4E02E806802D1D49B0 /* Row.swift in Sources */,
+				ED6498AD627581D3216938680A6D4614 /* RowControllerType.swift in Sources */,
+				B5D1D75F4DFB50ECDBD359388B708E4A /* RowProtocols.swift in Sources */,
+				0E7232F55A0147C548BF0C1D91AD29DC /* RowType.swift in Sources */,
+				5D49089662AC20A1CB3F05D33635229D /* RuleClosure.swift in Sources */,
+				311CF93EE9E301E3FAFD46BA0A62E3B8 /* RuleEmail.swift in Sources */,
+				D042F97BD6E9018B1E6AF3B78695F2F6 /* RuleLength.swift in Sources */,
+				BE3AFC46419AC438FE1D409B7B0BFED4 /* RuleRange.swift in Sources */,
+				C812952EC34CF6C37FA7B066870741B4 /* RuleRegExp.swift in Sources */,
+				653F5F8E52EED5D8B9CF3FBDB0712CDD /* RuleRequired.swift in Sources */,
+				4EE521ADDD025747F450378FDDE95372 /* RuleURL.swift in Sources */,
+				2ACBF08CF311E49CB4BA1F75D7F7209C /* Section.swift in Sources */,
+				14085738C1B57648ADD19DDB9E7AA93F /* SegmentedRow.swift in Sources */,
+				2395F5D2B2E9E8CDCC9B2C03F31A59B6 /* SelectableRowType.swift in Sources */,
+				05E44C82FAED17D346EE349295CF4603 /* SelectableSection.swift in Sources */,
+				598FA42A947DB0A73BF837326DFDB13C /* SelectorAlertController.swift in Sources */,
+				402EA4A022E376724E25504C36C522CD /* SelectorRow.swift in Sources */,
+				B8E82D98499955A6B39BDBCB56E048D8 /* SelectorViewController.swift in Sources */,
+				C4E1ACB5AED0442E0212211FAFDA7975 /* SliderRow.swift in Sources */,
+				FF23400BEFE014C4818111FB1F2EB3EB /* StepperRow.swift in Sources */,
+				F3247CD95148E670D550CC747A769404 /* SwitchRow.swift in Sources */,
+				37E2FFC149E2115469E943E6953CDE15 /* TextAreaRow.swift in Sources */,
+				4325E0AC8D1557CE015B4F35423277DA /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C0D8744CA121831A227DD6D140C923C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingMenuController;
+			target = C5A82921A1B97047AB8B8D3012D722A5 /* PagingMenuController */;
+			targetProxy = 0ED2834FC6CF63A2A32A981145EECA30 /* PBXContainerItemProxy */;
+		};
+		29E4D8393767144A632AD1EB03D5E3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 873B1A0D84F1FF2C0ECD8A2440705B43 /* Eureka */;
+			targetProxy = 87D4DF9E4E74C3DC165BAA97B91847ED /* PBXContainerItemProxy */;
+		};
+		5D35CB5188F1A948719695A4C40C6E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 05AD06F0631C5AEC26E3D63C72F88C41 /* RAMAnimatedTabBarController */;
+			targetProxy = CD45A1F1827570587382BE653F131F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9033750D8E7A50C68462EFA62D700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2646C53D9DC9D9ACDE212B3039FCF6F /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67CF826B05A84010EAFF409F75BDE8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900F555AF55235BEAA7D57F44FB8E782 /* Pods-PiSay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PiSay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiSay/Pods-PiSay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PiSay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A25DB3C12CE1EEE8B1458AF98CB94E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2646C53D9DC9D9ACDE212B3039FCF6F /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8AA01E9281C5D2D76E06B2DD87EEC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC04DDE2949054C5C9EEA1CB093D2C3C /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F1FE3725DD57A4922BCD8BD9D59671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C73EBBC3E0246D23C993E4F8B42C207 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4ED0CE8A56C56101E017E2274351D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC04DDE2949054C5C9EEA1CB093D2C3C /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7B860F8B3A1DFE865C447284ABEEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE41FFD54534965EF807E5363355F8C5 /* Pods-PiSay.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PiSay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PiSay/Pods-PiSay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PiSay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8A28C1AB31DE0596B7B90E948A69A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C73EBBC3E0246D23C993E4F8B42C207 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689EDA487315035755E9A0A64F58843D /* Build configuration list for PBXNativeTarget "PagingMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ED0CE8A56C56101E017E2274351D5B /* Debug */,
+				B8AA01E9281C5D2D76E06B2DD87EEC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CAF9842FAFC5CCEFE9C4516FF82575 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F1FE3725DD57A4922BCD8BD9D59671 /* Debug */,
+				F8A28C1AB31DE0596B7B90E948A69A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F29ECB29C5F5E0958554F72422EA95C /* Build configuration list for PBXNativeTarget "Pods-PiSay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CF826B05A84010EAFF409F75BDE8C9 /* Debug */,
+				F7B860F8B3A1DFE865C447284ABEEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE17FD22F754341BD6DBF1E339AAF8A4 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25DB3C12CE1EEE8B1458AF98CB94E9F /* Debug */,
+				1E9033750D8E7A50C68462EFA62D700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

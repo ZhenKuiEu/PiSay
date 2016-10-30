@@ -1,0 +1,18 @@
+PODS:
+  - Eureka (2.0.0-beta.1)
+  - PagingMenuController (2.0.0)
+  - RAMAnimatedTabBarController (2.0.1)
+
+DEPENDENCIES:
+  - Eureka (~> 2.0.0-beta.1)
+  - PagingMenuController
+  - RAMAnimatedTabBarController
+
+SPEC CHECKSUMS:
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  PagingMenuController: 60602bfb5421d6536c1e3097baeed601dec1d85b
+  RAMAnimatedTabBarController: 1d20343a6fca7eb433ad67b6e1599dd6e9213292
+
+PODFILE CHECKSUM: dba6d518197ae3983d51c93673920486aeba0368
+
+COCOAPODS: 1.1.0.rc.2
