@@ -57,7 +57,9 @@ class UserDetailViewController: UIViewController, UITableViewDataSource, UITable
         EditorVC.protocolDelegate = self
         EditorVC.start()
         print("123~~~")
-        print(editorValues)
+        if editorValues != nil {
+            print(editorValues!)
+        }
         if let Name = editorValues?["姓名"]!{
             people[0].Name = Name as! String
         }

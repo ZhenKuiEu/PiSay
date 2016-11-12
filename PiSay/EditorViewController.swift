@@ -22,7 +22,7 @@ class EditorViewController: FormViewController {
     @IBAction func returnButton(_ sender: UIBarButtonItem) {
         let valuesDictionary = form.values()
         editorValues = valuesDictionary
-        print(editorValues)
+        print(editorValues!)
         self.performSegue(withIdentifier: "EditorViewToUserDetailView", sender: self)
     }
     
